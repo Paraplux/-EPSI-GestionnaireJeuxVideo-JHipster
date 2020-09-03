@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.marcbouchez.main",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "jeuxvideos",
+    "packageName": "com.marcbouchez.main",
+    "packageFolder": "com/marcbouchez/main",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZmIzMTE0MmIyNmEyMzJmZmVkZmYyNTI1OGQ2MDM3MjI0ODJiYjdiN2UzNGFkZGY2YmM5Njc5ODIyODkyZjAyYjEwYTc0M2M3YjRkNmViYTUyZjYxY2VjZTJkNDdhZmQ4MzQ2ODIxZWM0MjBlNjAzMzM1MmIxMDljZmVkZWQyMjc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "yeti",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1599124031556,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr"],
+    "blueprints": []
+  }
+}
