@@ -1,0 +1,23 @@
+{
+  "jeuxvideosApp": {
+    "plateforme": {
+      "home": {
+        "title": "Plateformes",
+        "createLabel": "Créer un nouveau Plateforme",
+        "createOrEditLabel": "Créer ou éditer un Plateforme",
+        "search": "Recherche pour Plateforme",
+        "notFound": "Aucun Plateforme trouvé"
+      },
+      "created": "Un nouveau Plateforme a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Plateforme avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Plateforme avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Plateforme {{ id }} ?"
+      },
+      "detail": {
+        "title": "Plateforme"
+      },
+      "name": "Name"
+    }
+  }
+}

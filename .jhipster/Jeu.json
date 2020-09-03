@@ -1,0 +1,33 @@
+{
+  "name": "Jeu",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prix",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "plateforme",
+      "otherEntityRelationshipName": "jeu",
+      "relationshipName": "plateforme",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200903091505",
+  "entityTableName": "jeu",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
